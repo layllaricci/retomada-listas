@@ -1,0 +1,40 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(97, 2, 2);
+    background-color: rgb(189, 188, 188);
+}
+
+h2 {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(97, 2, 2);
+    background-color: rgb(189, 188, 188);
+}
+
+#ordenada {
+    font-size: 14px;
+    background-color: rgb(189, 188, 188);
+}
+
+#ordenada li::marker {
+    color: rgb(97, 2, 2);
+    font-size: 17px;
+}
+
+#nao-ordenada {
+    font-size: 14px;
+    list-style: disc;
+    background-color: rgb(189, 188, 188);
+}
+
+#nao-ordenada li::marker {
+    color: rgb(97, 2, 2) ;
+    font-size: 17px;
+}
