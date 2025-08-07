@@ -1,40 +1,54 @@
-* {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    font-family: "Spectral", serif;
+    background-color: oklch(25.8% 0.092 26.042);
+    color: oklch(97.1% 0.013 17.38);
+    padding-block: 30px;
+}
+
+div {
+    background-color: oklch(39.6% 0.141 25.723);
+    width: 800px;
+    padding: 30px;
+    margin-inline: auto;
+    border-radius: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+p {
+    line-height: 25px;
+    text-align: center;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    color: rgb(97, 2, 2);
-    background-color: rgb(189, 188, 188);
+    text-align: center;
 }
 
 h2 {
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    color: rgb(97, 2, 2);
-    background-color: rgb(189, 188, 188);
 }
 
 #ordenada {
-    font-size: 14px;
-    background-color: rgb(189, 188, 188);
+    font-size: 15px;
 }
 
 #ordenada li::marker {
-    color: rgb(97, 2, 2);
-    font-size: 17px;
+    font-size: 20px;
 }
 
 #nao-ordenada {
-    font-size: 14px;
+    font-size: 15px;
     list-style: disc;
-    background-color: rgb(189, 188, 188);
 }
 
 #nao-ordenada li::marker {
-    color: rgb(97, 2, 2) ;
-    font-size: 17px;
+    font-size: 20px;
 }
